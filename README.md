@@ -1,7 +1,7 @@
 #  리액트 라이프 사이클
-- 리액트는 컴포넌트 기반의 View를 중심으로 한 라이브러리이다
-- 그러다보니 각각의 컴포넌트에는 라이프 사이클이 존재한다
-- 컴포넌트의 수명은 보통 페이지에서 렌더링되기 전인 준비 과정에서 시작하여 페이지에서 사라질 때 끝이난다
+리액트는 컴포넌트 기반의 View를 중심으로 한 라이브러리이다
+그러다보니 각각의 컴포넌트에는 라이프 사이클이 존재한다
+컴포넌트의 수명은 보통 페이지에서 렌더링되기 전인 준비 과정에서 시작하여 페이지에서 사라질 때 끝이난다
 
 ![alt text](https://jistol.github.io/assets/img/frontend/react-lifecycle-methods/2.png)
 
@@ -22,8 +22,8 @@
 
 ## 라이프 사이클 메서드
 ### Constructor
-- 생성자이다. 자바와 마찬가지로 컴포넌트를 만들 때 처음으로 실행된다
-- 이 메서드에서는 초기 state를 정할 수 있다
+생성자이다. 자바와 마찬가지로 컴포넌트를 만들 때 처음으로 실행된다
+이 메서드에서는 초기 state를 정할 수 있다
 ```Javascript
     // class
     class Example extends React.Component {
@@ -37,11 +37,11 @@
         const [count, setCount] = useState(0);
     }
 ```
-- 클래스형에서는 초기 state를 정할 때 constructor를 사용해야 한다
-- 하지만 Hook에서는 useState hook을 사용하면 초기 상태를 쉽게 설정해줄 수 있다
+클래스형에서는 초기 state를 정할 때 constructor를 사용해야 한다
+하지만 Hook에서는 useState hook을 사용하면 초기 상태를 쉽게 설정해줄 수 있다
 ### getDerivedStateFromProps
-- 이 메서드는 리액트 16.3 버전 이후에 생긴 메서드이다
-- Props에서 받아온 값을 state에 동기화시키는 용도로 사용하며, 컴포넌트가 마운트될 때와 업데이트 될 때 호출된다
+이 메서드는 리액트 16.3 버전 이후에 생긴 메서드이다
+Props에서 받아온 값을 state에 동기화시키는 용도로 사용하며, 컴포넌트가 마운트될 때와 업데이트 될 때 호출된다
 ```javascript
     // class
     class Example extends React.Component {
