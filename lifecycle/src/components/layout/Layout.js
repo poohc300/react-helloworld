@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './header/Header';
 import Footer from './footer/Footer';
 import Navbar from './navbar/Navbar';
+import Card from './card/Card';
 import "./Layout.css";
 
 class Layout extends React.Component {
@@ -11,11 +12,7 @@ class Layout extends React.Component {
             <div>
                 <Navbar />
                 <Header />
-                <div className='container'>
-                    <article>
-                        <h1>Body</h1>
-                    </article>
-                </div>
+                <Card />
                 <Footer />
                 
             </div>
