@@ -12,6 +12,7 @@ class Layout extends React.Component {
             <div>
                 <Navbar />
                 <Header />
+
                 <Card />
                 <Footer />
                 
