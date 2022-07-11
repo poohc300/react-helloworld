@@ -48,7 +48,7 @@
     padding: 1.5rem 0;
   }
   .navigation-menu li:hover {
-    background-color: #eee;
+    background-color: rgb(196, 164, 164);
   }
 }
 
