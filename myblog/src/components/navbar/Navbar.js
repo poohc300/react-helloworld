@@ -34,7 +34,16 @@ class Navbar extends React.Component {
                             <a href="/project">Project </a>
                         </li>
                         <li>
-                            <a href="/blog">Blog </a>
+                            <a href="/category/java">Java </a>
+                        </li>
+                        <li>
+                            <a href="/category/javascript">Javascript </a>
+                        </li>
+                        <li>
+                            <a href="/category/database">Database </a>
+                        </li>
+                        <li>
+                            <a href="/category/react">React </a>
                         </li>
                     </ul>
                 </div>
