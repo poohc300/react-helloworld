@@ -28,7 +28,7 @@ class PostItem extends React.Component {
                 </div>
                 
                 <div className="post-items-title">
-                    <a href="/home">{title}</a>
+                    <a href="/home/">{title}</a>
                 </div>
                 <div className="post-items-contents">
                     <a href="/home">{content}</a>
