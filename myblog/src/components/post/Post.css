@@ -1,12 +1,21 @@
-.post {
-    height: 60px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    position: relative;
-    padding: 0.5rem 0rem;
-    margin-left: 1rem;
-    vertical-align: 10em;
-    text-align: center;
-  }
-  
+.posts {
+  padding: 4rem;
+  background-color: white;
+   
+}
+
+.posts-container {
+  display: block;
+  width: 80%;
+}
+
+.posts-wrapper {
+  position: relative;
+  margin: 50px 0 45px;
+}
+
+.posts-items {
+  margin-bottom: 24px;
+  display: flex;
+  flex: 1;
+}

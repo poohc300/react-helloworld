@@ -1,13 +1,43 @@
 import React from "react";
 import './Post.css';
+import PostItem from '../postItem/PostItem';
 
 class Post extends React.Component {
     render() {
         return (
-            <div className="post">
-                <h3>제목: 테스트</h3>
-                <h3>내용: 테스트</h3>
-                <h3>작성시간: 테스트</h3>
+            <div className="posts">
+                <div className="posts-container">
+                    <div className="posts-wrapper">
+                        <ul className="posts-items">
+                            <PostItem></PostItem>
+                        </ul>
+                    </div>
+                    <div className="posts-wrapper">
+                        <ul className="posts-items">
+                            <PostItem></PostItem>
+                        </ul>
+                    </div>
+                    <div className="posts-wrapper">
+                        <ul className="posts-items">
+                            <PostItem></PostItem>
+                        </ul>
+                    </div>
+                    <div className="posts-wrapper">
+                        <ul className="posts-items">
+                            <PostItem></PostItem>
+                        </ul>
+                    </div>
+                    <div className="posts-wrapper">
+                        <ul className="posts-items">
+                            <PostItem></PostItem>
+                        </ul>
+                    </div>
+                    <div className="posts-wrapper">
+                        <ul className="posts-items">
+                            <PostItem></PostItem>
+                        </ul>
+                    </div>
+                </div>               
             </div>
         )
     }
