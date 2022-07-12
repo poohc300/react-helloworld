@@ -6,6 +6,11 @@ class PostItem extends React.Component {
         super(props);
         console.log(props);
     }
+
+    showDetail() {
+
+    }
+
     render() {
         const { no, category, date, title, content } = this.props.posts;
         return (
@@ -23,10 +28,10 @@ class PostItem extends React.Component {
                 </div>
                 
                 <div className="post-items-title">
-                    {title}
+                    <a href="/home">{title}</a>
                 </div>
                 <div className="post-items-contents">
-                    {content}
+                    <a href="/home">{content}</a>
                 </div>
             </div>
         )
