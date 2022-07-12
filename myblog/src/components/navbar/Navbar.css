@@ -18,6 +18,7 @@
   color: black;
   font-size: 1.3rem;
   margin-left: 1rem;
+  
 }
 
 @media screen and (max-width: 1080px) {
@@ -35,17 +36,20 @@
     height: calc(100vh - 77px);
     background-color: white;
     border-top: 1px solid black;
+    
   }
 
   .navigation-menu li {
     display: inline;
     text-align: center;
     margin: 1rem;
+
   }
   .navigation-menu li a {
     color: black;
     width: 100%;
-    padding: 1.5rem 0;
+    padding: 1.5rem 0; 
+    
   }
   .navigation-menu li:hover {
     background-color: rgb(196, 164, 164);

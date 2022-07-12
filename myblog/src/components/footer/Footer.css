@@ -6,6 +6,13 @@
     position: relative;
     padding: 0.5rem 0rem;
     margin-left: 1rem;
-    
+    margin-right: 1rem;
+    font-size: small;
   }
-  
+.writer {
+    margin-right: 1rem;
+}
+.github-address {
+    font-size: medium;
+    font-weight: bold;
+}

@@ -5,9 +5,11 @@
     align-items: center;
     position: relative;
     padding: 0.5rem 0rem;
-    margin-left: 1rem;
     text-decoration: underline;
     text-decoration-color:rgb(212, 206, 206);
     text-underline-offset: 10px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
   
